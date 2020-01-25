@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(214, 34%, 87%);
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Mobile: 375px - Desktop: 1440px */
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Join-Our-Community {
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    /* border-radius: 7px; */
+}
+
+.Join-Our-Community h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.Join-Our-Community h2 {
+    color: hsl(71, 73%, 54%);
+    padding-top: 10px;
+}
+
+.Join-Our-Community p {
+    color: hsl(218, 22%, 67%);
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.box {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.Monthly-Subscribtion {
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    color: white;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.Monthly-Subscribtion span {
+    font-size: 40px;
+    color: white;
+}
+
+.Monthly-Subscribtion p {
+    color: hsl(217, 53%, 86%);
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.Monthly-Subscribtion h4 {
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    width: 20%;
+    padding: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.Why-Us {
+    background-color: hsl(179, 59%, 47%);
+    padding: 30px;
+    color: white;
+    margin-bottom: 20px;
+    float: right;
+    box-sizing: border-box;
+    /* border-radius: 7px; */
+}
+
+.Why-Us h1 {
+    padding-bottom: 25px;
+}
+
+.clr {
+    clear: both;
+}
+
+@media screen and (max-width: 1440px) {
+    .box1.Join-Our-Community {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Why-Us {
+        width: 100%;
+    }
+    .Monthly-Subscribtion {
+        width: 100%;
+    }
+}
