@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+
+
+/* common styles */
+
+.cm {
+    margin: 20px 15px;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+
+/* join our community styles */
+
+.joc {
+    background-color: snow;
+}
+
+.joc h1 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1.3rem;
+}
+
+.joc h2 {
+    color: hsla(71, 73%, 54%, 0.856);
+    margin-bottom: 1.3rem;
+}
+
+.joc p {
+    max-width: 95%;
+    color: rgb(172, 171, 171);
+}
+
+.ms {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.ms h2 {
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+    margin-left: 15px;
+    margin-bottom: 1.3em;
+}
+
+span {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1.3em;
+}
+
+.ms p {
+    color: #ccc;
+    max-width: 95%;
+    margin-bottom: 0.5rem;
+    margin-left: 15px;
+}
+
+.ms .paragraph {
+    color: #fff;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    margin: 1.3rem;
+    padding: 15px 110px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 16px;
+    max-width: 50%;
+}
+
+.why-us {
+    background-color: rgba(27, 183, 189, 0.616);
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+.why-us h2 {
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+    margin-left: 15px;
+    margin-bottom: 1.3em;
+}
+
+.why-us p {
+    color: rgb(223, 217, 217);
+    font-size: 1.2rem;
+    margin-left: 15px;
+    padding-bottom: 1.3em;
+}
+
+@media screen and (min-width: 1440px) {
+    .joc {
+        height: 50vh;
+    }
+    .ms {
+        width: 50vw;
+        height: 50vh;
+        float: left;
+    }
+    .why-us {
+        width: 50vw;
+        height: 50vh;
+        float: right;
+    }
+}
